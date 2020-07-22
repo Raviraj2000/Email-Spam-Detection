@@ -32,9 +32,6 @@ nltk.download('stopwords')
 
 #Processing the text
 def process_text(text):
-  #1 Remove th punctuations
-  #2 Remove the stopwords
-  #3 Return list of clean words
   
   #1 Remove punctuations
   nopunc = [char for char in text if char not in string.punctuation]
